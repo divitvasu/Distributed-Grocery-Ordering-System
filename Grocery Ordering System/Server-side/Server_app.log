@@ -1,0 +1,10 @@
+Dec 14, 2021 12:06:04.188 AM com.GroceryOrderingSystem.server.Server_app main
+INFO: OBJECT AND REGISTRY BINDING SUCCESSFUL
+Dec 14, 2021 12:07:17.237 AM com.GroceryOrderingSystem.communication.Key_Store_Int_Imp put_pair
+INFO: Request [put, Item, CartItem{name='Pepsi', quantity=2, email='userone'}] from client 192.168.86.133 performed on Hashmap
+Dec 14, 2021 12:07:17.737 AM com.GroceryOrderingSystem.communication.Key_Store_Int_Imp put_pair
+INFO: Request [put, Item, CartItem{name='Coke', quantity=500, email='userone'}] from client 192.168.86.133 performed on Hashmap
+Dec 14, 2021 12:07:17.761 AM com.GroceryOrderingSystem.communication.Key_Store_Int_Imp put_pair
+INFO: Request [put, Item, CartItem{name='Mountain Dew', quantity=1, email='userone'}] from client 192.168.86.133 performed on Hashmap
+Dec 14, 2021 12:07:17.785 AM com.GroceryOrderingSystem.communication.Key_Store_Int_Imp put_pair
+INFO: Request [put, Item, CartItem{name='Coke', quantity=5, email='userone'}] from client 192.168.86.133 performed on Hashmap

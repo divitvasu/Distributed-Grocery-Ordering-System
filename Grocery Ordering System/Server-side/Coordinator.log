@@ -1,0 +1,18 @@
+Dec 14, 2021 12:07:17.223 AM com.GroceryOrderingSystem.listener.KafkaConsumer consumeJson
+INFO: OBJECT TO ACCEPT REQUESTS BOUND SUCCESSFULLY
+Dec 14, 2021 12:07:17.230 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: PUT-request sent to the server [put, Item, CartItem{name='Pepsi', quantity=2, email='userone'}]
+Dec 14, 2021 12:07:17.708 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: Server response [ACK-Added pair! Item:CartItem{name='Pepsi', quantity=2, email='userone'}, Data-Store contents: {Item=CartItem{name='Pepsi', quantity=2, email='userone'}}]
+Dec 14, 2021 12:07:17.732 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: PUT-request sent to the server [put, Item, CartItem{name='Coke', quantity=500, email='userone'}]
+Dec 14, 2021 12:07:17.746 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: Server response [ACK-Added pair! Item:CartItem{name='Coke', quantity=500, email='userone'}, Data-Store contents: {Item=CartItem{name='Coke', quantity=500, email='userone'}}]
+Dec 14, 2021 12:07:17.756 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: PUT-request sent to the server [put, Item, CartItem{name='Mountain Dew', quantity=1, email='userone'}]
+Dec 14, 2021 12:07:17.766 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: Server response [ACK-Added pair! Item:CartItem{name='Mountain Dew', quantity=1, email='userone'}, Data-Store contents: {Item=CartItem{name='Mountain Dew', quantity=1, email='userone'}}]
+Dec 14, 2021 12:07:17.781 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: PUT-request sent to the server [put, Item, CartItem{name='Coke', quantity=5, email='userone'}]
+Dec 14, 2021 12:07:17.793 AM com.GroceryOrderingSystem.listener.KafkaConsumer put_pair
+INFO: Server response [ACK-Added pair! Item:CartItem{name='Coke', quantity=5, email='userone'}, Data-Store contents: {Item=CartItem{name='Coke', quantity=5, email='userone'}}]
