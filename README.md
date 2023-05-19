@@ -24,6 +24,22 @@ Multiple clients can record their cart details into the datastore. Firstly, the 
 - Then start the `groceryoderingSystemServerApplication`.
 - Open the client project and run the `groceeryOrderingSystemApplication`.
 
+**Server-Side App Execution**
+Showing three servers and one central server running and showing the central server's log after processing the client's request. `Server status: true true true` here implies that all three servers were available for handling the request.
+<p align="center">
+<img src="https://github.com/divitvasu/Distributed-Grocery-Ordering-System/assets/30820920/00a110d1-3906-4433-8ea9-f64195db6e4f" alt="Image" width="600" height="150">
+</p>
+
+<p align="center">
+<img src="https://github.com/divitvasu/Distributed-Grocery-Ordering-System/assets/30820920/3fc35f43-f952-4291-af27-4002807ef234" alt="Image" width="600" height="150">
+</p>
+
+**Client-Side App Execution**
+Showing client app running with a response from the server, after client sent the cart details for fulfillment to the server
+<p align="center">
+<img src="https://github.com/divitvasu/Distributed-Grocery-Ordering-System/assets/30820920/9825a5ee-4e2c-4712-b8d0-ce9261035b49" alt="Image" width="600" height="150">
+</p>
+
 ## Database Structure
 
 **MySQL (User & Auth)**
@@ -36,8 +52,10 @@ Multiple clients can record their cart details into the datastore. Firstly, the 
 <img src="https://github.com/divitvasu/Distributed-Grocery-Ordering-System/assets/30820920/02149b1b-63ef-4a92-addf-ce0b5a6d1ed9" alt="Image" width="600" height="300">
 </p>
 
-## Shortcomings
-This project could potentially be extended with added functionalities such as an user-interface, payment gateway, a database for facilitating logistics etc. However, this project has not delved into these added functionalities and has only focussed on the backend aspects, in the interest of time. User passwords could also be hashed and stored and various other security measures could be implemented.
+## Shortcomings and Future Scope
+This project is more aimed towards demonstrating the learnings imbibed from coursework in distributed systems, thus, is not extensive in nature. This project could potentially be extended with added functionalities such as an user-interface, payment gateway, a database for facilitating logistics, and a proper frontend etc. Also, Redis could been used for caching. User passwords could also be hashed and stored and various other security measures could be implemented. This project currently works with a fixed number of servers, however, that could be improved to be made dynamic. Say, a new server node could be automatically deployed, when the network load or requests cross a predefined threshold. A gateway could also be used for effectively routing the client requests to servers. However, this project has not delved into these added functionalities and has only focussed on the critical backend aspects, in the interest of time.
+
+Overall, to summarize, the server module can take in requests from the client module, process and fetch the availability of the order items from a data-store through distributed replicas of the server. The client need not know which replica of the server it is being served by.
 
 ## Contributors
 @ParshvaTimbadia
