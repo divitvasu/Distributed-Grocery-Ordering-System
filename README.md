@@ -45,7 +45,6 @@ Showing client app running with a response from the server, after client sent th
 </p>
 
 ## Database Structure
-
 **MySQL (User & Auth)**
 <p align="center">
 <img src="https://github.com/divitvasu/Distributed-Grocery-Ordering-System/assets/30820920/adb1e548-375e-4def-8b47-5f366a740c98" alt="Image" width="550" height="250">
